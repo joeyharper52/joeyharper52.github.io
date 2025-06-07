@@ -1,14 +1,14 @@
-![PFTG Banner](64BE6C65-3FD9-41BE-A69B-AB3CA390C14D.png)
+![PFTG Banner](pftg_banner.png)
 
 # 🌌 PFTG-MinimalRelic
 
 Welcome to the official site for my original physics theory:
 
 ## 🧭 A Universal Framework for the Pressure Field Theory of Gravity  
-**(PFTG-MinimalRelic)**
+(**PFTG–MinimalRelic**)
 
-📄 [Download the Full PDF](https://zenodo.org/record/15612109/files/PFTG_MinimalRelic_Final.pdf)  
-📌 [View DOI via Zenodo](https://doi.org/10.5281/zenodo.15612109)
+📄 [**Download the Full PDF**](PFTG_Endorser_Summary.pdf)  
+📌 [**View DOI via Zenodo**](https://doi.org/10.5281/zenodo.15612109)
 
 ---
 
@@ -17,14 +17,14 @@ Welcome to the official site for my original physics theory:
 The **Pressure-Field Theory of Gravity** proposes that gravity arises not from spacetime curvature but from **scalar pressure gradients** in a cosmic field (Φ).  
 This field-based approach:
 
-- Eliminates the need for dark matter  
-- Explains galaxy rotation curves  
-- Predicts CMB patterns and acoustic seeding  
-- Recovers GR results in weak-field limits  
+- ✅ Eliminates the need for dark matter  
+- ✅ Explains galaxy rotation curves  
+- ✅ Predicts CMB patterns and acoustic seeding  
+- ✅ Recovers GR results in weak-field limits  
 
 ---
 
-## 🧩 Key Features
+## 🧪 Key Features
 
 - ✅ Unified Lagrangian with entropy and quantum terms  
 - ✅ Scalar field Φ with photon coupling and cosmic expansion  
@@ -36,9 +36,5 @@ This field-based approach:
 
 ## 📚 Cite This Work
 
-Harper, Joey. *A Universal Framework for the Pressure Field Theory of Gravity (PFTG-MinimalRelic)*. Zenodo, 2025.  
+**Harper, Joey.** *A Universal Framework for the Pressure Field Theory of Gravity (PFTG-MinimalRelic).* Zenodo, 2025.  
 **DOI:** [10.5281/zenodo.15612109](https://doi.org/10.5281/zenodo.15612109)
-
----
-
-Thanks for visiting — if you're a researcher or collaborator interested in testing or extending this framework, feel free to reach out!
