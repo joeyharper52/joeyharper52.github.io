@@ -2,7 +2,7 @@
 
 # 🌌 PFTG-MinimalRelic
 
-Welcome to the official site for my original physics theory:
+Welcome to the official repository for my original physics theory:
 
 ## 🧭 A Universal Framework for the Pressure Field Theory of Gravity  
 (**PFTG–MinimalRelic**)
@@ -12,29 +12,58 @@ Welcome to the official site for my original physics theory:
 
 ---
 
+## 📑 Table of Contents
+- [🔍 Summary](#-summary)
+- [⚙️ Features](#️-features)
+- [📘 Theory Equations](#-theory-equations)
+- [🧪 Usage](#-usage)
+- [📚 Cite This Work](#-cite-this-work)
+
+---
+
 ## 🔍 Summary
 
-The **Pressure-Field Theory of Gravity** proposes that gravity arises not from spacetime curvature but from **scalar pressure gradients** in a cosmic field (Φ).  
-This field-based approach:
+The **Pressure-Field Theory of Gravity** proposes that gravitational effects arise from **scalar pressure gradients** rather than spacetime curvature. This removes the need for dark matter in explaining:
+- Galaxy rotation curves  
+- Gravitational lensing  
+- Time dilation  
+- CMB anisotropies
 
-- ✅ Eliminates the need for dark matter  
-- ✅ Explains galaxy rotation curves  
-- ✅ Predicts CMB patterns and acoustic seeding  
-- ✅ Recovers GR results in weak-field limits  
-
----
-
-## 🧪 Key Features
-
-- ✅ Unified Lagrangian with entropy and quantum terms  
-- ✅ Scalar field Φ with photon coupling and cosmic expansion  
-- ✅ Gravitational lensing and orbit drift via pressure  
-- ✅ Matches M87* shadow and CMB peak positions  
-- ✅ Zenodo DOI-linked, peer-style Overleaf version  
+The theory recovers General Relativity results in the weak-field limit, while predicting measurable deviations in strong-field or electromagnetic-coupled environments.
 
 ---
 
-## 📚 Cite This Work
+## ⚙️ Features
 
-**Harper, Joey.** *A Universal Framework for the Pressure Field Theory of Gravity (PFTG-MinimalRelic).* Zenodo, 2025.  
-**DOI:** [10.5281/zenodo.15612109](https://doi.org/10.5281/zenodo.15612109)
+✅ Unified Lagrangian with entropy and quantum structure  
+✅ Scalar field Φ coupled to photons and matter  
+✅ Orbit drift and lensing derived from pressure gradients  
+✅ Matches M87* shadow, CMB peaks, and galactic rotation  
+✅ Peer-reviewed PDF + Zenodo DOI available  
+
+---
+
+## 📘 Theory Equations
+
+### Core Equations (Rendered as images for clarity):
+
+#### Acceleration from Scalar Pressure Gradient  
+<img src="https://raw.githubusercontent.com/joeyharper52/joeyharper52.github.io/main/equation_acceleration.png" width="300"/>
+
+#### Time Dilation in Field  
+<img src="https://raw.githubusercontent.com/joeyharper52/joeyharper52.github.io/main/equation_timedilation.png" width="300"/>
+
+(These images should match the graphics you've already generated.)
+
+---
+
+## 🧪 Usage
+
+This repository hosts:
+- ✅ The [PDF summary paper](PFTG_Endorser_Summary.pdf)
+- ✅ Embedded DOI from [Zenodo](https://doi.org/10.5281/zenodo.15612109)
+- ✅ Markdown site via GitHub Pages: [joeyharper52.github.io](https://joeyharper52.github.io)
+
+To fork or reuse:
+```bash
+git clone https://github.com/joeyharper52/joeyharper52.github.io.git
