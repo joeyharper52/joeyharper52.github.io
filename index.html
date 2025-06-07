@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PFTG - MinimalRelic</title>
   <style>
     body {
@@ -56,9 +56,32 @@
       margin: auto;
       padding: 20px;
     }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #1a1a1a;
+      padding: 12px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+    }
+
+    .navbar a {
+      color: #4fc3f7;
+      font-weight: bold;
+      font-size: 16px;
+    }
   </style>
 </head>
 <body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <a href="#theory">Theory</a>
+    <a href="#figures">Figures</a>
+    <a href="#faq">FAQ</a>
+  </nav>
 
   <!-- HEADER IMAGE -->
   <img src="pftg_banner.png" alt="PFTG Banner" style="width: 100%; border-radius: 6px; margin-bottom: 20px;" />
@@ -84,9 +107,9 @@
     📌 <a href="https://doi.org/10.5281/zenodo.15612109">View DOI via Zenodo</a>
   </p>
 
-  <!-- SUMMARY SECTION -->
+  <!-- THEORY SECTION -->
   <hr>
-  <h2>🔍 Summary</h2>
+  <h2 id="theory">🔍 Summary</h2>
   <p>
     The <strong>Pressure-Field Theory of Gravity</strong> proposes that gravity arises not from spacetime curvature,
     but from <strong>scalar pressure gradients</strong> in a cosmic field (Φ).
@@ -98,9 +121,9 @@
     <li>✅ Recovers GR in weak-field limits</li>
   </ul>
 
-  <!-- FEATURES SECTION -->
+  <!-- FIGURES SECTION -->
   <hr>
-  <h2>🧪 Key Features</h2>
+  <h2 id="figures">🧪 Key Features</h2>
   <ul>
     <li>🧩 Unified Lagrangian with entropy and quantum terms</li>
     <li>📡 Scalar field Φ with photon coupling and cosmic expansion</li>
@@ -109,9 +132,9 @@
     <li>🔗 Zenodo DOI-linked, peer-style Overleaf version</li>
   </ul>
 
-  <!-- CITE SECTION -->
+  <!-- FAQ / CITE SECTION -->
   <hr>
-  <h2>📚 Cite This Work</h2>
+  <h2 id="faq">📚 Cite This Work</h2>
   <p>
     Harper, Joey. <em>A Universal Framework for the Pressure Field Theory of Gravity (PFTG-MinimalRelic)</em>. Zenodo, 2025.<br>
     DOI: <a href="https://doi.org/10.5281/zenodo.15612109">10.5281/zenodo.15612109</a>
