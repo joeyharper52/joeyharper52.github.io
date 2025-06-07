@@ -1,5 +1,6 @@
 ![PFTG Banner](64BE6C65-3FD9-41BE-A69B-AB3CA390C14D.png)
-# 🌀 PFTG-MinimalRelic
+
+# 🌌 PFTG-MinimalRelic
 
 Welcome to the official site for my original physics theory:
 
@@ -20,22 +21,24 @@ This field-based approach:
 - Explains galaxy rotation curves  
 - Predicts CMB patterns and acoustic seeding  
 - Recovers GR results in weak-field limits  
-- Introduces scalar gravitational waves and lensing  
-- Offers testable deviations in strong-field regimes
 
 ---
 
-## 🧪 Key Features
+## 🧩 Key Features
 
 - ✅ Unified Lagrangian with entropy and quantum terms  
 - ✅ Scalar field Φ with photon coupling and cosmic expansion  
 - ✅ Gravitational lensing and orbit drift via pressure  
 - ✅ Matches M87* shadow and CMB peak positions  
-- ✅ Zenodo DOI-linked, peer-style Overleaf version
+- ✅ Zenodo DOI-linked, peer-style Overleaf version  
 
 ---
 
 ## 📚 Cite This Work
 
 Harper, Joey. *A Universal Framework for the Pressure Field Theory of Gravity (PFTG-MinimalRelic)*. Zenodo, 2025.  
-DOI: [10.5281/zenodo.15612109](https://doi.org/10.5281/zenodo.15612109)
+**DOI:** [10.5281/zenodo.15612109](https://doi.org/10.5281/zenodo.15612109)
+
+---
+
+Thanks for visiting — if you're a researcher or collaborator interested in testing or extending this framework, feel free to reach out!
