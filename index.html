@@ -63,6 +63,13 @@
       border: 2px solid #444;
       border-radius: 6px;
       margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .pdf-fallback {
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
     }
   </style>
 </head>
@@ -93,10 +100,10 @@
   </p>
 
   <!-- PDF VIEWER -->
-  <iframe src="PFTG_Endorser_Summary.pdf">
-    This browser does not support PDFs. Please download the PDF to view it:
-    <a href="PFTG_Endorser_Summary.pdf">Download PDF</a>.
-  </iframe>
+  <iframe src="PFTG_Endorser_Summary.pdf"></iframe>
+  <div class="pdf-fallback">
+    📥 If the PDF does not display above, <a href="PFTG_Endorser_Summary.pdf" target="_blank">click here to open or download it</a>.
+  </div>
 
   <!-- SUMMARY SECTION -->
   <hr />
