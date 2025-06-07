@@ -1,55 +1,73 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PFTG-MinimalRelic</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PFTG – MinimalRelic</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <img src="pftg_banner.png" alt="PFTG Banner" class="banner"/>
+    <img src="pftg_banner.png" alt="PFTG Banner" class="banner" />
     <h1>PFTG–MinimalRelic</h1>
     <p>Unified Gravity Without Dark Matter — by Joey Harper</p>
-    <nav>
-      <a href="#simulations">Jump to Simulations</a>
-      <a href="PFTG_MinimalRelic_Final.pdf" target="_blank">Download Full PDF</a>
-      <a href="https://doi.org/10.5281/zenodo.15612109" target="_blank">View DOI</a>
-    </nav>
+
+    <div class="quick-links">
+      <a href="#simulations" class="button">🔭 Jump to Simulations</a>
+      <a href="PFTG_MinimalRelic_Final.pdf" class="button" target="_blank">📄 Download Full PDF</a>
+      <a href="https://doi.org/10.5281/zenodo.15612109" class="button" target="_blank">🔗 View DOI</a>
+    </div>
   </header>
 
-  <main>
-    <section id="about">
-      <h2>🌌 What is PFTG?</h2>
-      <p>
-        The Pressure-Field Theory of Gravity (PFTG-MinimalRelic) explains gravity as pressure from scalar field gradients — not spacetime curvature.
-        It removes the need for dark matter and unifies general relativity with quantum effects using a single scalar field (Φ).
-      </p>
-    </section>
+  <section>
+    <h2>🪐 What is PFTG?</h2>
+    <p>
+      The <strong>Pressure-Field Theory of Gravity (PFTG–MinimalRelic)</strong>
+      explains gravity as pressure from scalar field gradients — not spacetime curvature.
+      It removes the need for dark matter and unifies general relativity with quantum effects
+      using a single scalar field (Φ).
+    </p>
+  </section>
 
-    <section id="simulations">
-      <h2>🔬 Simulation Previews</h2>
-      <div class="gallery">
-        <div><img src="Fig_C1_Lensing.png"/><p>Gravitational Lensing (C1)</p></div>
-        <div><img src="Fig_C3_OrbitDrift.png"/><p>Orbit Drift (C3)</p></div>
-        <div><img src="Fig_C8_CMB.png"/><p>CMB Ripple Seeding (C8)</p></div>
-        <div><img src="Fig_C10_Quantization.png"/><p>Quantization (C10)</p></div>
+  <section id="simulations">
+    <h2>🔬 Simulation Previews</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="Fig_C1_Lensing.png" alt="Gravitational Lensing" />
+        <p>Gravitational Lensing (C1)</p>
       </div>
-    </section>
+      <div class="card">
+        <img src="Fig_C3_OrbitDrift.png" alt="Orbit Drift" />
+        <p>Orbit Drift (C3)</p>
+      </div>
+      <div class="card">
+        <img src="Fig_C8_CMB.png" alt="CMB Seeding" />
+        <p>CMB Ripple Seeding (C8)</p>
+      </div>
+      <div class="card">
+        <img src="Fig_C10_Quantization.png" alt="Quantization" />
+        <p>Quantization (C10)</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="download">
-      <h2>📦 Downloads</h2>
-      <ul>
-        <li><a href="PFTG_MinimalRelic_Final.pdf" target="_blank">📄 Full Scientific Paper</a></li>
-        <li><a href="PFTG_Simulation_TableC1.pdf" target="_blank">📊 Table C1: Validation Summary (PDF)</a></li>
-        <li><a href="PFTG_Validation_Appendix.pdf" target="_blank">🖼️ Simulation Figure Appendix</a></li>
-      </ul>
-    </section>
+  <section class="downloads">
+    <h3>📦 Downloads</h3>
+    <ul>
+      <li><a href="PFTG_MinimalRelic_Final.pdf" target="_blank">📄 Full Scientific Paper</a></li>
+      <li><a href="PFTG_Simulation_TableC1.pdf" target="_blank">📊 Table C1: Validation Summary (PDF)</a></li>
+      <li><a href="PFTG_Validation_Appendix.pdf" target="_blank">🖼️ Simulation Figure Appendix</a></li>
+    </ul>
+  </section>
 
-    <footer>
-      <p>Created by Joey Harper • <a href="https://doi.org/10.5281/zenodo.15612109" target="_blank">DOI: 10.5281/zenodo.15612109</a></p>
-    </footer>
-  </main>
+  <footer>
+    <p>
+      Created by Joey Harper • DOI:
+      <a href="https://doi.org/10.5281/zenodo.15612109" target="_blank">
+        10.5281/zenodo.15612109
+      </a>
+    </p>
+    <p>© 2025 Joey Harper | PFTG–MinimalRelic | CC BY 4.0 License</p>
+  </footer>
 </body>
 </html>
