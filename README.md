@@ -47,11 +47,11 @@ The theory recovers General Relativity results in the weak-field limit, while pr
 
 <img src="https://raw.githubusercontent.com/joeyharper52/joeyharper52.github.io/main/equation_acceleration_fallback.png" width="300"/>
 
-<img src="https://raw.githubusercontent.com/joeyharper52/joeyharper52.github.io/main/equation_timedilation_fallback.png" width="300"/>
+
 
 
 #### Time Dilation in Field  
-<img src="https://raw.githubusercontent.com/joeyharper52/joeyharper52.github.io/main/equation_timedilation.png" width="300"/>
+<img src="https://raw.githubusercontent.com/joeyharper52/joeyharper52.github.io/main/equation_timedilation_fallback.png" width="300"/>
 
 (These images should match the graphics you've already generated.)
 
