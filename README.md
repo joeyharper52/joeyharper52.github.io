@@ -1,3 +1,4 @@
+![PFTG Banner](64BE6C65-3FD9-41BE-A69B-AB3CA390C14D.png)
 # 🌀 PFTG-MinimalRelic
 
 Welcome to the official site for my original physics theory:
