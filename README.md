@@ -1,69 +1,80 @@
-![PFTG Banner](pftg_banner.png)
+# 🌌 Pressure-Field Theory of Gravity (PFTG-MinimalRelic)
 
-# 🌌 PFTG-MinimalRelic
+This project presents a testable, unified theory of gravity that eliminates the need for dark matter through scalar field dynamics.  
+**PFTG-MinimalRelic** models gravity as pressure arising from vacuum energy gradients (Φ), replacing spacetime curvature with field-based interaction.
 
-Welcome to the official repository for my original physics theory:
-
-## 🧭 A Universal Framework for the Pressure Field Theory of Gravity  
-(**PFTG–MinimalRelic**)
-
-📄 [**Download the Full PDF**](PFTG_Endorser_Summary.pdf)  
-📌 [**View DOI via Zenodo**](https://doi.org/10.5281/zenodo.15612109)
+🧠 Built by: Joey Harper  
+🧪 DOI: [10.5281/zenodo.15612109](https://doi.org/10.5281/zenodo.15612109)  
+📄 Full Paper: [`PFTG_MinimalRelic_Final.pdf`](./PFTG_MinimalRelic_Final.pdf)
 
 ---
 
-## 📑 Table of Contents
-- [🔍 Summary](#-summary)
-- [⚙️ Features](#️-features)
-- [📘 Theory Equations](#-theory-equations)
-- [🧪 Usage](#-usage)
-- [📚 Cite This Work](#-cite-this-work)
+## ✅ Simulation Validation
+
+PFTG predictions were validated through **12 internal simulations**, covering lensing, wave emission, quantization, and more.  
+These simulations provide full support for every major claim in the theory.
+
+📄 [Simulation Validation Table (Markdown)](./PFTG_Simulation_TableC1.md)  
+📄 [Simulation Validation Table (PDF)](./PFTG_Simulation_TableC1.pdf)  
+📊 [Full Visual Appendix: All 12 Simulations](./PFTG_Validation_Appendix.pdf)
+
+### 🔬 Table C1: Validation Summary
+
+| Fig | Simulation                      | Purpose                                                   |
+|-----|----------------------------------|------------------------------------------------------------|
+| C1  | Gravitational Lensing           | Shows ∇Φ bends light paths                                |
+| C2  | Scalar Gravitational Waves      | Emitted from orbiting sources via the pressure field      |
+| C3  | Orbit Drift                     | Demonstrates deviation from Newtonian gravity             |
+| C4  | Post-Newtonian Precession       | Mercury perihelion shift via scalar corrections           |
+| C5  | Entropy Gradient Force          | Gravitational force arises from entropy differentials     |
+| C6  | Galaxy Rotation Curves          | Reproduces flat velocity curves without dark matter       |
+| C7  | Photon Birefringence            | Phase change via Φ-F electromagnetic interaction      |
+| C8  | CMB Ripple Seeding              | Early-universe density waves via scalar pressure ripples  |
+| C9  | Solar System Formation          | Fragmentation into protoplanets via field instabilities   |
+| C10 | Planck-Scale Quantization       | Emergence of uncertainty and discrete energy states       |
+| C11 | Photon Sphere / Black Hole Edge | Defines stable orbits via scalar \( V_{eff}(r) \)         |
+| C12 | Inertial Ripple Drag            | Motion resistance from background vacuum fluctuations     |
 
 ---
 
-## 🔍 Summary
+## 📘 Overview
 
-The **Pressure-Field Theory of Gravity** proposes that gravitational effects arise from **scalar pressure gradients** rather than spacetime curvature. This removes the need for dark matter in explaining:
-- Galaxy rotation curves  
-- Gravitational lensing  
-- Time dilation  
-- CMB anisotropies
-
-The theory recovers General Relativity results in the weak-field limit, while predicting measurable deviations in strong-field or electromagnetic-coupled environments.
-
----
-
-## ⚙️ Features
-
-✅ Unified Lagrangian with entropy and quantum structure  
-✅ Scalar field Φ coupled to photons and matter  
-✅ Orbit drift and lensing derived from pressure gradients  
-✅ Matches M87* shadow, CMB peaks, and galactic rotation  
-✅ Peer-reviewed PDF + Zenodo DOI available  
+**Why PFTG?**  
+- Reproduces GR predictions in weak-field limits  
+- Explains galaxy dynamics without dark matter  
+- Introduces scalar gravitational waves  
+- Quantizes naturally from pressure gradients  
+- Unifies classical and quantum under one field
 
 ---
 
-## 📘 Theory Equations
+## 📎 Files Included
 
-<img src="https://raw.githubusercontent.com/joeyharper52/joeyharper52.github.io/main/equation_acceleration_fallback.png" width="300"/>
-
-
-
-
-#### Time Dilation in Field  
-<img src="https://raw.githubusercontent.com/joeyharper52/joeyharper52.github.io/main/equation_timedilation_fallback.png" width="300"/>
-
-(These images should match the graphics you've already generated.)
+| File | Description |
+|------|-------------|
+| `PFTG_MinimalRelic_Final.pdf` | Full scientific paper |
+| `PFTG_Simulation_TableC1.md` | Markdown validation table |
+| `PFTG_Simulation_TableC1.pdf` | PDF table version |
+| `PFTG_Validation_Appendix.pdf` | All simulation figures |
 
 ---
 
-## 🧪 Usage
+## 📬 Citation
 
-This repository hosts:
-- ✅ The [PDF summary paper](PFTG_Endorser_Summary.pdf)
-- ✅ Embedded DOI from [Zenodo](https://doi.org/10.5281/zenodo.15612109)
-- ✅ Markdown site via GitHub Pages: [joeyharper52.github.io](https://joeyharper52.github.io)
+If you use this work, please cite:
 
-To fork or reuse:
-```bash
-git clone https://github.com/joeyharper52/joeyharper52.github.io.git
+```
+@misc{pftg2025,
+  author = {Joey Harper},
+  title = {A Universal Framework for the Pressure Field Theory of Gravity (PFTG-MinimalRelic)},
+  year = {2025},
+  doi = {10.5281/zenodo.15612109},
+  url = {https://doi.org/10.5281/zenodo.15612109}
+}
+```
+
+---
+
+## 🌐 License
+
+This project is released under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** License.
