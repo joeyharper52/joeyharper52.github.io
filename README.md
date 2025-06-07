@@ -1,4 +1,4 @@
-![PFTG Banner](pftg_banner.png)
+![PFTG Banner](pftg_banner.PFG)
 
 # 🌌 PFTG-MinimalRelic
 
