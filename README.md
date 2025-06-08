@@ -5,7 +5,7 @@ This project presents a testable, unified theory of gravity that eliminates the 
 
 🧠 Built by: Joey Harper  
 🧪 DOI: [10.5281/zenodo.15612109](https://doi.org/10.5281/zenodo.15612109)  
-📄 Full Paper: [`PFTG_MinimalRelic_Final.pdf`](./PFTG_MinimalRelic_Final.pdf)
+📄 Full Paper: [`PFTG_MinimalRelic_Paper.pdf`](./PFTG_MinimalRelic_Paper.pdf)
 
 ---
 
@@ -55,9 +55,8 @@ It replaces dark matter and spacetime curvature with pressure-induced vacuum dyn
 
 ## 📎 Files Included
 
-| File | Description |
-|------|-------------|
-| `PFTG_MinimalRelic_Final.pdf` | Full scientific paper |
+| File | 
+|`PFTG_MinimalRelic_Paper.pdf` | Full scientific paper |
 | `PFTG_Simulation_TableC1.md` | Markdown validation table |
 | `PFTG_Simulation_TableC1.pdf` | PDF table version |
 | `PFTG_Validation_Appendix.pdf` | All simulation figures |
