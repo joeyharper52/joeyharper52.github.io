@@ -1,59 +1,139 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PFTG-MinimalRelic</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>PFTG-MinimalRelic</h1>
-    <p>Unified Gravity Without Dark Matter — by Joey Harper</p>
-    <div class="quick-links">
-      <a href="#simulations" class="button">🧪 Simulations</a>
-      <a href="PFTG_MinimalRelic_Paper.pdf" class="button">📄 Full Paper (DOI: <b>10.5281/zenodo.15617262</b>)</a>
-      <a href="https://doi.org/10.5281/zenodo.15617262" class="button">🔗 Zenodo DOI</a>
-    </div>
-  </header>
+/* Base Styling */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  color: #111;
+  background: #f9f9f9;
+  padding: 0 1rem;
+}
 
-  <section>
-    <h2>Overview</h2>
-    <p>
-      The Pressure-Field Theory of Gravity (PFTG-MinimalRelic) replaces spacetime curvature with vacuum energy pressure gradients. 
-      It matches GR in weak fields and removes the need for dark matter while introducing quantization, entropy, and testable deviations.
-    </p>
-    <ul>
-      <li>Scalar Lagrangian with photon/entropy terms</li>
-      <li>Orbit drift, lensing, CMB match, black hole edges</li>
-      <li>12 validation simulations with visual appendix</li>
-      <li>Quantized emergence of ℏ, birefringence, inflation</li>
-    </ul>
-  </section>
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #1e90ff, #6a5acd);
+  color: white;
+}
 
-  <section id="simulations">
-    <h2>Simulation Validation</h2>
-    <p>All major PFTG predictions have been tested across 12 internal simulations:</p>
-    <div class="cards">
-      <div class="card"><img src="Fig_C1_Lensing.png" alt="Lensing" /><p>Gravitational Lensing (C1)</p></div>
-      <div class="card"><img src="Fig_C3_OrbitDrift.png" alt="Orbit Drift" /><p>Orbit Drift (C3)</p></div>
-      <div class="card"><img src="Fig_C8_CMB.png" alt="CMB Seeding" /><p>CMB Ripple Seeding (C8)</p></div>
-      <div class="card"><img src="Fig_C10_Quantization.png" alt="Quantization" /><p>Quantization (C10)</p></div>
-    </div>
-  </section>
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
 
-  <section class="downloads">
-    <h3>📂 Downloads</h3>
-    <ul>
-      <li><a href="PFTG_MinimalRelic_Paper.pdf" target="_blank">📄 Full Scientific Paper</a></li>
-      <li><a href="PFTG_Simulation_TableC1.md" target="_blank">📝 Table C1: Validation Summary (Markdown)</a></li>
-      <li><a href="PFTG_Simulation_TableC1.pdf" target="_blank">📊 Table C1: Validation Summary (PDF)</a></li>
-      <li><a href="PFTG_Validation_Appendix.pdf" target="_blank">🖼️ Simulation Figure Appendix</a></li>
-    </ul>
-  </section>
+h2, h3 {
+  margin-top: 2rem;
+  color: #333;
+}
 
-  <footer>
-    <p>© 2025 Joey Harper | CC BY 4.0 License | DOI: <a href="https://doi.org/10.5281/zenodo.15617262">10.5281/zenodo.15617262</a></p>
-  </footer>
-</body>
-</html>
+ul {
+  padding-left: 1.2rem;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Button links */
+.button {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.6rem 1rem;
+  background: white;
+  color: #1e90ff;
+  border: 2px solid #1e90ff;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #1e90ff;
+  color: white;
+}
+
+/* Card Section */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  max-height: 140px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+/* Downloads List */
+.downloads ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.downloads li {
+  padding: 0.4rem 0;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #ddd;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #121212;
+    color: #ddd;
+  }
+
+  header {
+    background: linear-gradient(to right, #444, #222);
+  }
+
+  .card {
+    background: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(255,255,255,0.05);
+  }
+
+  .button {
+    background: #121212;
+    border-color: #ccc;
+    color: #ccc;
+  }
+
+  .button:hover {
+    background: #ccc;
+    color: black;
+  }
+
+  footer {
+    border-top: 1px solid #444;
+    color: #aaa;
+  }
+
+  a {
+    color: #6db3f2;
+  }
+}
