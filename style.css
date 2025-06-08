@@ -8,11 +8,27 @@ body {
   padding: 0;
 }
 
-header {
-  text-align: center;
-  padding: 3rem 1rem;
-  background: linear-gradient(to right, #007cf0, #00dfd8);
+/* Gradient Header */
+.gradient-header {
+  padding: 3.5rem 1rem 2rem;
+  background: linear-gradient(135deg, #007cf0 0%, #00dfd8 100%);
   color: white;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.gradient-header h1 {
+  font-size: 2.6rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.gradient-header p {
+  font-size: 1.2rem;
+  margin: 0 0 1rem 0;
+}
+
+.button-row {
+  margin-top: 1rem;
 }
 
 h1 {
