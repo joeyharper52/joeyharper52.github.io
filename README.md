@@ -28,6 +28,13 @@ PFTG predictions were validated through **12 internal simulations**, covering le
 - Predictions validated through custom simulations and visual appendices  
 - Cosmological expansion and early universe seeding from entropy-based inflation  
 - No need for dark matter — baryonic-only sourcing  
+🚀 Future Work
+	•	Ongoing validation of field energy extraction in lab-scale setups
+	•	Exploration of scalar–vacuum boundary behavior using engineered materials
+	•	Modeling entropy-based inflation without singularities
+	•	Supplementary Project:
+A detailed companion study titled “Field-Driven Energy Generation via Local Pressure Gradients” expands on scalar-field engineering designs, localized energy conversion, and testbed schematics.
+📁 Download ZIP Archive — includes the full paper, Figures B1–B5, and LaTeX source.
 
 ---
 
