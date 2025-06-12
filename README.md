@@ -39,7 +39,7 @@ PFTG predictions were validated through **12 internal simulations**, covering le
 | `PFTG_Simulation_TableC1.md` | Markdown validation table |
 | `PFTG_Simulation_TableC1.pdf` | PDF table version |
 | `PFTG_Validation_Appendix.pdf` | All simulation figures |
-
+| [`PFTG-Energy-Generation.zip`](./PFTG-Energy-Generation.zip) | Includes the full energy generation white paper, labeled figures (B1–B5), and appendix-ready LaTeX source |
 ---
 
 ## 📬 Citation
