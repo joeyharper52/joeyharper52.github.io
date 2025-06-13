@@ -11,13 +11,12 @@ body {
 /* Gradient Header */
 .gradient-header {
   padding: 3.5rem 1rem 2rem;
-background: url('header_pftg.PNG') no-repeat center center;
-background-size: cover;
+  background: url('header_pftg.png') no-repeat center center;
+  background-size: cover;
   color: white;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
-
 .gradient-header h1 {
   font-size: 2.6rem;
   margin: 0 0 0.5rem 0;
