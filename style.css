@@ -11,7 +11,7 @@ body {
 /* Gradient Header */
 .gradient-header {
   padding: 3.5rem 1rem 2rem;
-  background: url('header_pftg.png?v=3') no-repeat center center;
+  background: url('header_pftg_small.png?v=1') no-repeat center center;
   background-size: cover;
   color: white;
   text-align: center;
