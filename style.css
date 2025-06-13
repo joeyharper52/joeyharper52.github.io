@@ -8,15 +8,22 @@ body {
   padding: 0;
 }
 
+/* Gradient Header */
 .gradient-header {
   background: url('header_pftg_tiny.png?v=1') no-repeat center center;
-  background-size: cover;
-  padding: 3rem 1rem;
+  background-size: contain;  /* Show full image without cropping */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;              /* Adjust to fit the whole equation nicely */
   text-align: center;
   color: white;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+/* Header Text */
 .gradient-header h1 {
   font-size: 2.6rem;
   margin: 0 0 0.5rem 0;
