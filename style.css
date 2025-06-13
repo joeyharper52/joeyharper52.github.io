@@ -8,15 +8,15 @@ body {
   padding: 0;
 }
 
-/* Gradient Header */
 .gradient-header {
-  padding: 3.5rem 1rem 2rem;
-  background: url('header_pftg_small.png?v=1') no-repeat center center;
+  background: url('header_pftg_tiny.png?v=1') no-repeat center center;
   background-size: cover;
-  color: white;
+  padding: 3rem 1rem;
   text-align: center;
+  color: white;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
+
 .gradient-header h1 {
   font-size: 2.6rem;
   margin: 0 0 0.5rem 0;
