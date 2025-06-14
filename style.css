@@ -67,41 +67,7 @@ body {
   background: #388bfd;
 }
 
-.button-row.zone-filters button {
-  background: #30363d;
-  color: #f0f0f0;
-  border: 1px solid #444c56;
-  border-radius: 4px;
-  padding: 0.5rem 0.9rem;
-  margin: 0.3rem;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: background 0.25s ease;
-}
 
-.button-row.zone-filters button:hover {
-  background: #444c56;
-}
-
-.button-row.zone-filters {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-/* SVG Spiral Table */
-#spiral-table-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem 0;
-}
-
-#spiral-table {
-  width: 90%;
-  max-width: 800px;
-  height: auto;
-  background: transparent;
-}
 
 /* Tooltip */
 #tooltip {
