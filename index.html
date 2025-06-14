@@ -21,6 +21,27 @@
     <!-- Background image only -->
   </header>
 
+  <!-- Zone Filter Buttons -->
+  <div class="button-row zone-filters">
+    <button data-zone="All">All Zones</button>
+    <button data-zone="Core">Core</button>
+    <button data-zone="Zone 1">Zone 1</button>
+    <button data-zone="Zone 2">Zone 2</button>
+    <button data-zone="Zone 3">Zone 3</button>
+    <button data-zone="Zone 4">Zone 4</button>
+    <button data-zone="Zone 5">Zone 5</button>
+    <button data-zone="Zone 6">Zone 6</button>
+  </div>
+
+  <!-- Spiral Table Section -->
+  <section id="spiral-table-section">
+    <svg id="spiral-table" viewBox="0 0 800 800">
+      <image href="pftg_spiral_background.png" x="0" y="0" width="800" height="800" />
+    </svg>
+    <div id="tooltip" class="hidden"></div>
+  </section>
+
+  <!-- Existing Buttons -->
   <div class="button-group">
     <div class="button-row top-buttons">
       <a href="https://zenodo.org/record/15612109" class="button">
@@ -36,9 +57,6 @@
       </a>
     </div>
   </div>
-
-</body>
-</html>
 
   <!-- Simulations Section -->
   <section id="simulations">
@@ -137,5 +155,7 @@
     <a href="https://github.com/joeyharper52">GitHub</a>
   </footer>
 
+  <!-- Script -->
+  <script src="script.js"></script>
 </body>
 </html>
