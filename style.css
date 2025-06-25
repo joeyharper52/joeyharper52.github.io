@@ -67,8 +67,6 @@ body {
   background: #388bfd;
 }
 
-
-
 /* Tooltip */
 #tooltip {
   position: absolute;
@@ -102,6 +100,12 @@ body {
   border-radius: 6px;
   width: 220px;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
 }
 
 .card img {
@@ -109,10 +113,42 @@ body {
   border-radius: 4px;
 }
 
+/* Sections */
 section {
   padding: 2rem;
 }
 
+section ul {
+  padding-left: 1.2rem;
+  line-height: 1.7;
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Link style in sections */
+section a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Citation block */
+pre {
+  background: #0e1117;
+  border: 1px solid #30363d;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  color: #f8f8f2;
+}
+
+/* Footer */
 footer {
   text-align: center;
   padding: 2rem;
